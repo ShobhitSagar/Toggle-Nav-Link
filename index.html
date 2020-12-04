@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Toggle Nav Link</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<button onclick="toggleDiv(1)">Home</button>
+			<button onclick="toggleDiv(2)">Service</button>
+			<button onclick="toggleDiv(3)">Contact</button>
+		</nav>
+
+		<div style="display: block" id="home-div">Home</div>
+		<div style="display: none" id="service-div">Service</div>
+		<div style="display: none" id="contact-div">Contact</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
